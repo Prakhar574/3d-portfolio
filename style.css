@@ -75,10 +75,6 @@ transition:transform 1s cubic-bezier(.645,.045,.355,1);
 z-index:100
 }
 
-.cover.cover-right.turn {
-transform:rotate(180deg)
-}
-
 .book {
 display:flex;
 height:100%;
@@ -432,10 +428,6 @@ font-size:1rem;
 margin-bottom:1.5rem;
 padding:.8rem;
 width:100%
-}
-
-.contact-box .field::placeholder {
-color:var(--text-color)
 }
 
 .contact-box textarea {
